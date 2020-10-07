@@ -77,8 +77,8 @@ def ShowData(currResults):
             print(' Overview Of Movie ',i+1,': '+overview,'\n')
             Movie_Overview.append(overview)
         else:
-            Movie_Overview.append('NA')
             print(' Overview Of Movie: NA')
+            Movie_Overview.append('NA')
         
         if(image!=None):
             print('\nDownloading Poster...')
